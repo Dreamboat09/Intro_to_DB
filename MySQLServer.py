@@ -4,9 +4,8 @@ try:
     mydb = mysql.connector.connect (
         host="localhost",
         user="root",
-        passwd="dreamboat",
-        database="alx_book_store",
-        )
+        passwd="dreamboat" 
+    )
     
     mycursor = mydb.cursor()
     
